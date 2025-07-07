@@ -1,8 +1,8 @@
 "use client";
 
 import { Card, CardContent } from "../components/ui/card";
-import { Button } from "../components/ui/button";
-import { Mail, Github, Linkedin } from "lucide-react";
+// import { Button } from "../components/ui/button";
+// import { Mail, Github, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Portfolio() {
@@ -20,7 +20,7 @@ export default function Portfolio() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        <h1 className="text-4xl font-bold text-indigo-800">Bharath Sai</h1>
+        <h1 className="text-4xl font-bold text-indigo-800">Bharath</h1>
         <p className="text-lg text-sky-700">
           Senior UI/UX Developer | React, Angular, Next.js, GraphQL
         </p>
